@@ -38,6 +38,9 @@ mv LICENSE %{buildroot}%{_datadir}/licenses/%{name}/
 mkdir -p %{buildroot}%{_docdir}/%{name}
 mv README.md %{buildroot}%{_docdir}/%{name}/
 
+rm %{buildroot}%{_datadir}/.crates.toml
+rm %{buildroot}%{_datadir}/.crates2.json
+
 # Bin
 mkdir -p %{buildroot}%{_bindir}
 touch %{buildroot}%{_bindir}/hx
