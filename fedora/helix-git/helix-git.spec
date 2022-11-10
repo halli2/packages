@@ -6,7 +6,7 @@ Summary:        A post-modern modal text editor.
 
 License:        MPL-2.0
 URL:            https://github.com/helix-editor/helix
-Source0:        %{url}/archive/master.tar.gz#/%{name}-%{version}-%{release}.tar.gz
+Source0:        %{url}/archive/master.tar.gz
 
 BuildRequires:  tar xz cargo git clang
 
