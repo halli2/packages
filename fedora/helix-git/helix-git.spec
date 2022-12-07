@@ -1,5 +1,5 @@
 Name:           helix-git
-Version:        22.08.1
+Version:        22.12.0
 %define build_timestamp %{lua: print(os.date("%Y%m%d"))}
 Release: 1.%{?build_timestamp}%{?dist}
 Summary:        A post-modern modal text editor.
