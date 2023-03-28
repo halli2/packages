@@ -14,6 +14,7 @@ Requires:       cairo glibc libgcc
 %description
 
 
+%global debug_package %{nil}
 %prep
 %autosetup -n eww-%{version}
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain none -y
