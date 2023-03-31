@@ -1,7 +1,7 @@
 Name:           helix-git
-Version:        22.12.0
+Version:        23.03
 %define build_timestamp %{lua: print(os.date("%Y%m%d"))}
-Release: 1.%{?build_timestamp}%{?dist}
+Release: 2.%{?build_timestamp}%{?dist}
 Summary:        A post-modern modal text editor.
 
 License:        MPL-2.0
@@ -60,5 +60,8 @@ chmod +x %{buildroot}%{_prefix}/bin/hx
 
 
 %changelog
-* Thu Nov 10 2022 Halvor <halvor.kvamme@gmail.com>
+* Fri Mar 31 2023 Halvor <flkz@proton.me> - 23.03-2.20230331
+- Update version to 23.03
+
+* Thu Nov 10 2022 Halvor <flkz@proton.me>
 - 
